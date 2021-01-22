@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: timber-backend
-        image: docker.io/rowanf/timber-backend:v1.0
+        image: docker.io/rowanf/timber-backend:ae31711129501db1c74b8264ecdebfe06dc5df93
         ports:
         - containerPort: 8080
         env:
